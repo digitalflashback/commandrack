@@ -1,0 +1,9 @@
+venv-et sourceolod
+
+source /venc/bin/activate
+
+majd:
+
+pyinstaller --onefile main.py
+
+dist mappába kihelyezi a guiban futtatható binárist

@@ -1,0 +1,6 @@
+*.pyc
+build/
+dist/
+*.spec
+venv/
+build_command.txt

@@ -1,0 +1,3 @@
+git status
+status check for git
+

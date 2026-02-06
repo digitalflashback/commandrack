@@ -1,0 +1,22 @@
+Nagy fájlok kilistázása
+du -aBM 2>/dev/null | sort -nr | head -n 50 | more
+
+Fájlok keresése bizonyos méret felett
+find / -size +10M -ls
+
+Re-Queue Mail Queue - Postfix 
+postsuper -r <queue_id> vagy ALL
+
+Flush dns
+ip neigh flush all
+systemctl restart networking
+systemd-resolve --flush-caches
+
+ls
+List directory contents. Supports options -l, -a, -h.
+
+cd
+Change directory. Use '..' to go up one level.
+
+grep
+search tool
